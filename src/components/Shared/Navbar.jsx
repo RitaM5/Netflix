@@ -7,7 +7,6 @@ const Navbar = () => {
                 <nav className="flex justify-between items-center my-container">
                     <div>
                         <h1 className='text-4xl font-cinzel text-[#e50914] font-semibold md:block hidden'>NETFLIX</h1>
-
                     </div>
 
                     <div className="flex items-center gap-6 text-white font-poppins text-lg">
