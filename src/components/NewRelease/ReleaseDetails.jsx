@@ -25,7 +25,7 @@ const ReleaseDetails = () => {
                         <h2>{details?.time} <span className='text-2xl'>|</span></h2>
                         <h2 className='mt-1'>{details?.title}</h2>
                     </div>
-                    <p className='w-1/2 text-lg mx-auto lg:mx-0'>{details?.description}</p>
+                    <p className='md:w-1/2 text-lg mx-auto lg:mx-0'>{details?.description}</p>
                     <p className='text-lg'><span className='text-gray-400'>Starring:</span> {details.starring}</p>
                 </div>
             </div>

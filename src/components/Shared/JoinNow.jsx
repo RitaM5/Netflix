@@ -27,17 +27,17 @@ const JoinNow = () => {
                         </div>
                     </nav>
                 </header>
-                <div className='text-white my-container text-center space-y-6 relative top-80'>
+                <div className='text-white my-container text-center space-y-6 relative top-52 md:top-80'>
                     <h3 className='text-[20px] font-semibold'>Welcome back!</h3>
                     <h1 className='text-5xl font-extrabold'>Unlimited movies, TV shows, and more</h1>
                     <p className='text-[20px] font-semibold'>Plans now start at USD2.99/month.</p>
                     <button className=' bg-[#e50914] px-10 py-4 text-lg font-semibold rounded-md inline-flex gap-2 items-center'><span>Finish Sign Up</span><FiChevronRight size={20} /></button>
                 </div>
             </div>
-            <div className='lg:flex items-center  text-white my-container my-12'>
+            <div className='lg:flex items-center  text-white my-container my-14'>
                 <div className=' space-y-7 px-3 lg:px-0'>
                     <h1 className='text-5xl font-extrabold'>Enjoy on your TV</h1>
-                    <p className='text-[20px] font-semibold w-1/2'>
+                    <p className='text-[20px] font-semibold md:w-1/2'>
                         Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
                     </p>
                 </div>
@@ -71,9 +71,9 @@ const JoinNow = () => {
             </div>
             <div className=' border border-b-4 border-gray-700'></div>
             <div className='my-container my-24 text-white space-y-7 px-3 lg:px-36'>
-                <h1 className='text-5xl font-extrabold w-1/2'>Download your shows to watch offline</h1>
-                <p className='text-[20px] font-semibold w-1/2'>
-                    Save your favorites easily and always have something to watch.
+                <h1 className='text-5xl font-extrabold w-1/2'>Watch everywhere</h1>
+                <p className='text-[20px] font-semibold md:w-1/2'>
+                Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
                 </p>
             </div>
             <div className=' border border-b-4 border-gray-700'></div>
@@ -83,7 +83,7 @@ const JoinNow = () => {
                 </div>
                 <div className=' space-y-7 px-3 lg:px-0'>
                     <h1 className='text-5xl font-extrabold'>Create profiles for kids</h1>
-                    <p className='text-[20px] font-semibold w-1/2'>
+                    <p className='text-[20px] font-semibold md:w-1/2'>
                         Send kids on adventures with their favorite characters in a space made just for them—free with your membership.
                     </p>
                 </div>
@@ -98,7 +98,7 @@ const JoinNow = () => {
                         </div>
                         <div className="collapse-content text-left">
                             <div className=' border border-b-1 border-gray-700'></div>
-                            <p className='my-3 text-lg'>tabIndex={0} Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+                            <p className='my-3 text-[20px]'>tabIndex={0} Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
                         </div>
                     </div>
                     <div tabIndex={0} className="collapse collapse-plus my-3 py-6 bg-gray-800">
@@ -107,7 +107,7 @@ const JoinNow = () => {
                         </div>
                         <div className="collapse-content text-left">
                             <div className=' border border-b-1 border-gray-700'></div>
-                            <p className='my-3 text-lg'>tabIndex={0} Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD2.99 to USD9.99 a month. No extra costs, no contracts.</p>
+                            <p className='my-3 text-[20px]'>tabIndex={0} Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD2.99 to USD9.99 a month. No extra costs, no contracts.</p>
                         </div>
                     </div>
                     <div tabIndex={0} className="collapse collapse-plus my-3 py-6 bg-gray-800">
@@ -116,7 +116,7 @@ const JoinNow = () => {
                         </div>
                         <div className="collapse-content text-left">
                             <div className=' border border-b-1 border-gray-700'></div>
-                            <p className='my-3 text-lg'>tabIndex={0} Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                            <p className='my-3 text-[20px]'>tabIndex={0} Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
                         </div>
                     </div>
                     <div tabIndex={0} className="collapse collapse-plus py-6 my-3 bg-gray-800">
@@ -125,7 +125,7 @@ const JoinNow = () => {
                         </div>
                         <div className="collapse-content text-left">
                             <div className=' border border-b-1 border-gray-700'></div>
-                            <p className='my-3 text-lg'>tabIndex={0} Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                            <p className='my-3 text-[20px]'>tabIndex={0} Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
                         </div>
                     </div>
                     <div tabIndex={0} className="collapse collapse-plus py-6 my-3 bg-gray-800">
@@ -134,7 +134,7 @@ const JoinNow = () => {
                         </div>
                         <div className="collapse-content text-left">
                             <div className=' border border-b-1 border-gray-700'></div>
-                            <p className='my-3 text-lg'>tabIndex={0} Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                            <p className='my-3 text-[20px]'>tabIndex={0} Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
                         </div>
                     </div>
                     <div tabIndex={0} className="collapse collapse-plus py-6 my-3 bg-gray-800">
@@ -143,7 +143,7 @@ const JoinNow = () => {
                         </div>
                         <div className="collapse-content text-left">
                             <div className=' border border-b-1 border-gray-700'></div>
-                            <p className='my-3 text-lg'>tabIndex={0} The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                            <p className='my-3 text-[20px]'>tabIndex={0} The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
                         </div>
                     </div>
                 </div>
