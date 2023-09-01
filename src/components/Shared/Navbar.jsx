@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -11,8 +12,12 @@ const Navbar = () => {
 
                     <div className="flex items-center gap-6 text-white font-poppins text-lg">
                         <p className='lg:block hidden'>UNLIMITED TV SHOWS & MOVIES</p>
-                        <button className=' bg-[#e50914] px-5 py-3 rounded-md'>JOIN NOW</button>
-                            <button className='btn btn-outline text-white'>Sign Out</button>
+                        <Link to="/joinnow">
+                            <button className=' bg-[#e50914] px-5 py-3 rounded-md'>JOIN NOW</button>
+                        </Link>
+                        <Link to="/signin">
+                            <button className='border rounded-md py-2 px-5 text-white'>Sign In</button>
+                        </Link>
                     </div>
                 </nav>
             </header>

@@ -1,15 +1,19 @@
 import { useState } from 'react'
 import Navbar from './components/Shared/Navbar'
 import { Outlet } from 'react-router-dom'
+import Footer from './components/Shared/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='bg-[#181818]  min-h-screen'>
       <Navbar></Navbar>
-      <Outlet></Outlet>
-    </>
+      <div className=''>
+        <Outlet />
+      </div>
+      <Footer></Footer>
+    </div>
   )
 }
 
