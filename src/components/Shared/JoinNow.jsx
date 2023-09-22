@@ -27,7 +27,7 @@ const JoinNow = () => {
                         </div>
                     </nav>
                 </header>
-                <div className='text-white my-container text-center space-y-6 relative top-52 md:top-80'>
+                <div className='text-white my-container text-center space-y-6 relative top-52 md:top-60'>
                     <h3 className='text-[20px] font-semibold'>Welcome back!</h3>
                     <h1 className='text-5xl font-extrabold'>Unlimited movies, TV shows, and more</h1>
                     <p className='text-[20px] font-semibold'>Plans now start at USD2.99/month.</p>

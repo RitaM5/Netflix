@@ -8,7 +8,7 @@ const SignIn = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         width: '100%',
-        height: '100vh'
+        height: '100%'
     };
     return (
         <div style={divStyle} className='font-poppins overflow-hidden'>
@@ -22,7 +22,7 @@ const SignIn = () => {
                 </nav>
             </header>
             <div className='my-container text-center py-20'>
-                <div className='md:w-[600px] bg-black opacity-70 rounded-lg p-8 mx-auto  space-y-2'>
+                <div className='md:w-[600px] bg-black opacity-70 rounded-lg p-8 mx-auto my-36 space-y-2'>
                     <h1 className='text-3xl text-left md:ml-10 text-white font-semibold'>Sign In</h1>
                     <div className='py-8 text-left md:text-center space-y-3'>
                         <input type="text" placeholder="Your Email" className="input h-16 input-bordered w-full max-w-md" /><br />
